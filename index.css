@@ -18,6 +18,10 @@ body {
   font-weight: bold;
 }
 
+.container, .container-fluid {
+  margin-top: 20px; 
+}
+
 /* NAVIGATION */
 .navbar-light .navbar-nav .nav-link {
   color: #f8f9fa;
@@ -25,11 +29,11 @@ body {
 
 /* MAIN BODY */
 .col-md-9 {
-  padding: 20px 10px 20px 0px;
+  padding: 0px 10px 20px 0px;
 }
 
 .col-md-3 {
-  padding: 20px 0px 20px 10px;
+  padding: 0px 0px 20px 10px;
 }
 
 .posts {
