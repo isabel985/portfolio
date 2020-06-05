@@ -136,20 +136,15 @@ body {
 }
 
 /*** CONTACT ME PAGE ***/
-
 .contact {
-  display: grid;
-  grid-template-columns: 100px 700px;
   margin-bottom: 10px;
 }
 
-.contact .label {
-  grid-column: 1 / 2;
+.contact .contact-label {
   list-style-type: none;
 }
 
 .contact .link {
-  grid-column: 2 / 3;
   list-style-type: none;
   text-decoration: none;
 }
